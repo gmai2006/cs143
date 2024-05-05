@@ -35,12 +35,12 @@ public class UnsortedArrayMinPQ<E> implements MinPQ<E> {
         if (contains(element)) {
             throw new IllegalArgumentException("Already contains " + element);
         }
-        elements.add(new PriorityNode<>(element, priority));
+        //Your code here
     }
 
     @Override
     public boolean contains(E element) {
-        return elements.contains(new PriorityNode<>(element, 0));
+        //Your code here
     }
 
     @Override
